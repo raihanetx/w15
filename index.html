@@ -396,7 +396,7 @@ src="https://www.facebook.com/tr?id=482675157669768&ev=PageView&noscript=1"
         .category-section-title { font-size: 1.75rem; font-weight: 700; color: var(--text-color); text-align: center; margin-top: 1rem; margin-bottom: 1.5rem; }
         .categories.container {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             gap: 1.5rem;
             padding-left: 1.5rem;
             padding-right: 1.5rem;
@@ -1781,6 +1781,9 @@ src="https://www.facebook.com/tr?id=482675157669768&ev=PageView&noscript=1"
                 <a href="#" class="off-canvas-nav-item" onclick="navigateTo('products', 'ebook'); closeOffCanvasMenu(); return false;">
                     <i class="fas fa-book-open"></i> <span>Ebooks</span>
                 </a>
+                <a href="#" class="off-canvas-nav-item" onclick="navigateTo('products', 'resources'); closeOffCanvasMenu(); return false;">
+                    <i class="fas fa-archive"></i> <span>Resources</span>
+                </a>
             </nav>
         </div>
     </div>
@@ -1830,6 +1833,10 @@ src="https://www.facebook.com/tr?id=482675157669768&ev=PageView&noscript=1"
                 <div class="category" onclick="navigateTo('products', 'ebook')">
                     <div class="category-icon-wrapper"><i class="fas fa-book-open category-icon-fa" aria-hidden="true"></i></div>
                     <span class="category-name">Ebook</span>
+                </div>
+                <div class="category" onclick="navigateTo('products', 'resources')">
+                    <div class="category-icon-wrapper"><i class="fas fa-archive category-icon-fa" aria-hidden="true"></i></div>
+                    <span class="category-name">Resources</span>
                 </div>
             </section>
 
